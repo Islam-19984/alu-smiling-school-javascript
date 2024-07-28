@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Courses - SmileSchool</title>
+</head>
+
+<body>
+    <!-- Header and Hero Section Wrapper -->
+    <section class="header-hero-wrapper">
+        <!-- Header Section -->
+        <header class="header-section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/smile_off.png" class="footer-logo mr-2" alt="Smile off">
+                        <img src="images/logo.png" alt="SmileSchool Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="courses.html">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pricing.html">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-section text-center">
+            <div class="container">
+                <h1 class="hero-title">« Don’t cry because it’s over. <span class="text-primary">Smile</span> because it happened. »</h1>
+            </div>
+        </section>
+
+        <!-- Search Filters Section -->
+        <section class="search-filters bg-primary py-4">
+            <div class="container">
+                <div class="row">
+                    <!-- Search Field -->
+                    <div class="col-lg-4 col-md-12 mb-3 mb-md-0">
+                        <label class="text-white">Search:</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control rounded-top" placeholder="Search by keywords" aria-label="Search">
+                            <div class="input-group-append">
+                                <span class="input-group-text rounded-top"><i class="fas fa-search"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Topic Dropdown -->
+                    <div class="col-lg-4 col-md-6 mb-3 mb-md-0">
+                        <label class="text-white">Topic:</label>
+                        <div class="input-group">
+                            <select class="form-control rounded-top">
+                <option selected>Select topic...</option>
+                <option value="1">Topic 1</option>
+                <option value="2">Topic 2</option>
+                <option value="3">Topic 3</option>
+              </select>
+                        </div>
+                    </div>
+
+                    <!-- Sort By Dropdown -->
+                    <div class="col-lg-4 col-md-6">
+                        <label class="text-white">Sort By:</label>
+                        <div class="input-group">
+                            <select class="form-control rounded-top">
+                <option selected>Most Relevant</option>
+                <option value="1">Highest Rated</option>
+                <option value="2">Most Popular</option>
+                <option value="3">Newest</option>
+              </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section>
+        <!-- Courses Section -->
+        <section class="courses-section py-5">
+            <div class="container">
+                <div class="row">
+                    <!-- Course Card 1 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="position-relative">
+                                <img class="card-img-top rounded-top" src="images/thumbnail_1.jpg" alt="Diagonal Smile">
+                                <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Introduction to Web Development</h5>
+                                <p class="card-text">Learn the basics of HTML, CSS, and JavaScript to create your first website.</p>
+                                <p class="card-text"><small class="text-muted">Instructor: John Doe</small></p>
+                                <div class="rating">
+                                    <span class="stars">&#9733; &#9733; &#9733; &#9734; &#9734;</span>
+                                    <span class="duration ml-2">4.5 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 2 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="position-relative">
+                                <img class="card-img-top rounded-top" src="images/thumbnail_3.jpg" alt="Diagonal Smile">
+                                <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Python Programming for Beginners</h5>
+                                <p class="card-text">Get started with Python programming from scratch.</p>
+                                <p class="card-text"><small class="text-muted">Instructor: Jane Smith</small></p>
+                                <div class="rating">
+                                    <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+                                    <span class="duration ml-2">6 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 3 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="position-relative">
+                                <img class="card-img-top rounded-top" src="images/thumbnail_1.jpg" alt="Diagonal Smile">
+                                <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Digital Marketing Fundamentals</h5>
+                                <p class="card-text">Understand the basics of digital marketing strategies and tools.</p>
+                                <p class="card-text"><small class="text-muted">Instructor: Emily Brown</small></p>
+                                <div class="rating">
+                                    <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+                                    <span class="duration ml-2">3.5 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 4 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="position-relative">
+                                <img class="card-img-top rounded-top" src="images/thumbnail_1.jpg" alt="Diagonal Smile">
+                                <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Graphic Design Essentials</h5>
+                                <p class="card-text">Learn the essentials of graphic design with practical examples.</p>
+                                <p class="card-text"><small class="text-muted">Instructor: Michael Johnson</small></p>
+                                <div class="rating">
+                                    <span class="stars">&#9733; &#9733; &#9733; &#9734; &#9734;</span>
+                                    <span class="duration ml-2">5 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 5 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="position-relative">
+                                <img class="card-img-top rounded-top" src="images/thumbnail_4.jpg" alt="Diagonal Smile">
+                                <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">JavaScript Advanced Techniques</h5>
+                                <p class="card-text">Master advanced JavaScript concepts and techniques.</p>
+                                <p class="card-text"><small class="text-muted">Instructor: Sarah Lee</small></p>
+                                <div class="rating">
+                                    <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+                                    <span class="duration ml-2">4 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 6 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="position-relative">
+                                <img class="card-img-top rounded-top" src="images/thumbnail_1.jpg" alt="Diagonal Smile">
+                                <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Introduction to Machine Learning</h5>
+                                <p class="card-text">Get started with the fundamentals of machine learning.</p>
+                                <p class="card-text"><small class="text-muted">Instructor: Mark Anderson</small></p>
+                                <div class="rating">
+                                    <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+                                    <span class="duration ml-2">5.5 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 7 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="position-relative">
+                                <img class="card-img-top rounded-top" src="images/thumbnail_3.jpg" alt="Diagonal Smile">
+                                <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Data Science Foundations</h5>
+                                <p class="card-text">Learn the basics of data science and its applications.</p>
+                                <p class="card-text"><small class="text-muted">Instructor: Emma Wilson</small></p>
+                                <div class="rating">
+                                    <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+                                    <span class="duration ml-2">6 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 8 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="position-relative">
+                                <img class="card-img-top rounded-top" src="images/thumbnail_2.jpg" alt="Diagonal Smile">
+                                <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">UI/UX Design Fundamentals</h5>
+                                <p class="card-text">Explore the essentials of UI/UX design principles.</p>
+                                <p class="card-text"><small class="text-muted">Instructor: Olivia White</small></p>
+                                <div class="rating">
+                                    <span class="stars">&#9733; &#9733; &#9733; &#9734; &#9734;</span>
+                                    <span class="duration ml-2">4.5 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 9 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="position-relative">
+                                <img class="card-img-top rounded-top" src="images/thumbnail_2.jpg" alt="Diagonal Smile">
+                                <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">UI/UX Design Fundamentals</h5>
+                                <p class="card-text">Explore the essentials of UI/UX design principles.</p>
+                                <p class="card-text"><small class="text-muted">Instructor: Olivia White</small></p>
+                                <div class="rating">
+                                    <span class="stars">&#9733; &#9733; &#9733; &#9734; &#9734;</span>
+                                    <span class="duration ml-2">4.5 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 10 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="position-relative">
+                                <img class="card-img-top rounded-top" src="images/thumbnail_2.jpg" alt="Diagonal Smile">
+                                <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">UI/UX Design Fundamentals</h5>
+                                <p class="card-text">Explore the essentials of UI/UX design principles.</p>
+                                <p class="card-text"><small class="text-muted">Instructor: Olivia White</small></p>
+                                <div class="rating">
+                                    <span class="stars">&#9733; &#9733; &#9733; &#9734; &#9734;</span>
+                                    <span class="duration ml-2">4.5 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Course Card 11 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="position-relative">
+                                <img class="card-img-top rounded-top" src="images/thumbnail_2.jpg" alt="Diagonal Smile">
+                                <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">UI/UX Design Fundamentals</h5>
+                                <p class="card-text">Explore the essentials of UI/UX design principles.</p>
+                                <p class="card-text"><small class="text-muted">Instructor: Olivia White</small></p>
+                                <div class="rating">
+                                    <span class="stars">&#9733; &#9733; &#9733; &#9734; &#9734;</span>
+                                    <span class="duration ml-2">4.5 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Most Popular Tutorials Section -->
+        <section class="bg-white text-center py-5">
+            <div class="container">
+                <header>
+                    <h2 class="text-center text-black">The result section of courses</h2>
+                </header>
+                <div id="popularTutorialsCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <div class="position-relative">
+                                            <img class="card-img-top rounded-top" src="images/thumbnail_1.jpg" alt="Diagonal Smile">
+                                            <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title font-weight-bold">Diagonal Smile</h5>
+                                            <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                            <div class="author d-flex align-items-center">
+                                                <img src="images/profile_1.jpg" class="rounded-circle mr-2 small-img" alt="Phillip Massey">
+                                                <span class="text-primary">Phillip Massey</span>
+                                            </div>
+                                            <div class="rating d-flex align-items-center justify-content-between mt-2">
+                                                <div class="stars">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_off.png" alt="Star">
+                                                </div>
+                                                <span class="duration">8 min</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <div class="position-relative">
+                                            <img class="card-img-top rounded-top" src="images/thumbnail_2.jpg" alt="Sad Smile">
+                                            <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title font-weight-bold">Sad Smile</h5>
+                                            <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                            <div class="author d-flex align-items-center">
+                                                <img src="images/profile_1.jpg" class="rounded-circle mr-2 small-img" alt="Phillip Massey">
+                                                <span class="text-primary">Phillip Massey</span>
+                                            </div>
+                                            <div class="rating d-flex align-items-center justify-content-between mt-2">
+                                                <div class="stars">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_off.png" alt="Star">
+                                                </div>
+                                                <span class="duration">8 min</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <div class="position-relative">
+                                            <img class="card-img-top rounded-top" src="images/thumbnail_3.jpg" alt="Natural Smile">
+                                            <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title font-weight-bold">Natural Smile</h5>
+                                            <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                            <div class="author d-flex align-items-center">
+                                                <img src="images/profile_1.jpg" class="rounded-circle mr-2 small-img" alt="Phillip Massey">
+                                                <span class="text-primary">Phillip Massey</span>
+                                            </div>
+                                            <div class="rating d-flex align-items-center justify-content-between mt-2">
+                                                <div class="stars">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_off.png" alt="Star">
+                                                </div>
+                                                <span class="duration">8 min</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <div class="position-relative">
+                                            <img class="card-img-top rounded-top" src="images/thumbnail_4.jpg" alt="Happy Smile">
+                                            <a href="#" class="position-absolute play-button-overlay"><img src="images/play.png" alt="Play"></a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title font-weight-bold">Happy Smile</h5>
+                                            <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                            <div class="author d-flex align-items-center">
+                                                <img src="images/profile_1.jpg" class="rounded-circle mr-2 small-img" alt="Phillip Massey">
+                                                <span class="text-primary">Phillip Massey</span>
+                                            </div>
+                                            <div class="rating d-flex align-items-center justify-content-between mt-2">
+                                                <div class="stars">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_on.png" alt="Star">
+                                                    <img src="images/star_off.png" alt="Star">
+                                                </div>
+                                                <span class="duration">8 min</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#popularTutorialsCarousel" role="button" data-slide="prev">
+                        <img src="images/arrow_black_left.png" class="carousel-control-prev-icon" alt="Previous">
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#popularTutorialsCarousel" role="button" data-slide="next">
+                        <img src="images/arrow_black_right.png" class="carousel-control-next-icon" alt="Next">
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-black py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+                        <img src="images/smile_off.png" class="footer-logo" alt="Smile off" style="width: 30px; height: 30px;">
+                        <img src="images/logo.png" class="footer-logo" alt="Smiling School Logo">
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-right">
+                        <a href="#" class="btn btn-link text-white social-link">
+                            <img src="images/facebook-logo.png" alt="Facebook" style="width: 60px; height: 60px;">
+                        </a>
+                        <a href="#" class="btn btn-link text-white social-link">
+                            <img src="images/x-logo.png" alt="x" style="width: 30px; height: 30px;">
+                        </a>
+                        <a href="#" class="btn btn-link text-white social-link">
+                            <img src="images/instagram-logo.png" alt="Instagram" style="width: 40px; height: 40px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p class="text-muted mb-0">© 2024 Smiling School. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    </section>
+</body>
+</html>
